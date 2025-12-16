@@ -13,5 +13,5 @@ La interfaz gráfica se ha realizado en GRADIO.
 Los participantes de este proyecto hemos sido:
 - Carlos
 - Juan
-- Nicola
+- Nicolas
 - Riccardo
