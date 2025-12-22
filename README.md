@@ -11,7 +11,7 @@ La interfaz gráfica se ha realizado en GRADIO.
 
 # ✈️ Flight Delay Prediction System
 
-[![Hugging Face Spaces](https://img.shields.io/badge/Gradio-interface-blue?logo=gradio)](https://huggingface.co/spaces)
+[![GRADIO](https://img.shields.io/badge/Gradio-interface-blue?logo=gradio)](https://www.gradio.app/guides/quickstart)
 [![Python](https://img.shields.io/badge/Python-3.12.10-green?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
