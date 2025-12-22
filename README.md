@@ -24,9 +24,11 @@ An intelligent machine learning system that predicts flight departure and arriva
 - **📊 Dataset used**: 6,743,373 rows, 58 columns
 - **📌 Features**: 58 features
 - **📆 Date Range**: 2023-01-01 to 2023-12-31
+- **📆 Days of the week**: from Monday to Sunday
 - **✈️ Airlines**: 15
 - **🧳 Airports**: 349
 - **🛩️ Aircraft models**: 21
+- **🛩️ Aircraft manufacturer**: 5
 - **💾 Source**: <a href='https://www.kaggle.com/datasets/bordanova/2023-us-civil-flights-delay-meteo-and-aircraft'>Dataset</a>
 - **🌐 License**: <a href='https://creativecommons.org/publicdomain/zero/1.0/'>CC0: Public Domain</a>
 - **💻 Files**: <a href='https://github.com/whaleskin/obs-tfm.git'>GitHub Repository</a>
