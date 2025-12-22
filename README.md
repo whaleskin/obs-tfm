@@ -21,8 +21,13 @@ An intelligent machine learning system that predicts flight departure and arriva
 
 ## 📊 Dataset
 - **📝 Description**: US 2023 Civil Flights, delays, meteo and aircrafts
-- **📊 Dataset used**: 6,743,373 rows, 58 columns
-- **📌 Features**: 58 features
+- **📊 Dataset used**:
+    - **Rows**: 6,743,373
+    - **Cols**: 58
+- **📊 Data Split**:
+    - **Training set**: 5,394,698 samples
+    - **Test set**: 1,348,675 samples
+- **📌 Features**: 58
 - **📆 Date Range**: 2023-01-01 to 2023-12-31
 - **📆 Days of the week**: from Monday to Sunday
 - **✈️ Airlines**: 15
