@@ -12,8 +12,8 @@ La interfaz gráfica se ha realizado en GRADIO.
 # ✈️ Flight Delay Prediction System
 
 [![GRADIO](https://img.shields.io/badge/Gradio-interface-blue?logo=gradio)](https://www.gradio.app/guides/quickstart)
-[![Python](https://img.shields.io/badge/Python-3.12.10-green?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12.10-green?logo=python&labelColor=red)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)]([LICENSE](https://creativecommons.org/publicdomain/zero/1.0/))
 
 An intelligent machine learning system that predicts flight departure and arrival delays using various regression models.
 
