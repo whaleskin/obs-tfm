@@ -1,6 +1,5 @@
-# OBS - TFM
-Trabajo de Fin de Máster
-
+# OBS - Trabajo de Fin de Máster
+![Flight Delay Prediction System](https://i.ibb.co/F4tpB7ZZ/Screenshot-2025-12-16-115230.png)
 Este repositorio contiene el código que hemos desarrollado durante el máster de IA en OBS para:
 Predecir el retraso de las salidas y llegadas de las líneas aéreas.
 
