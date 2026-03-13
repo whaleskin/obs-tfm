@@ -1,5 +1,5 @@
 # OBS - Trabajo de Fin de Máster
-![Flight Delay Prediction System](https://i.ibb.co/F4tpB7ZZ/Screenshot-2025-12-16-115230.png)
+<img src="https://i.ibb.co/F4tpB7ZZ/Screenshot-2025-12-16-115230.png" alt="main-windows" border="0" width="500">
 Este repositorio contiene el código que hemos desarrollado durante el máster de IA en OBS para:
 Predecir el retraso de las salidas y llegadas de las líneas aéreas.
 
@@ -115,6 +115,15 @@ The results will be displayed on top of the screen. For more details see the det
 ## 🚀 Live Demo
 
 To try the live application, please be in touch with the developers.
+
+**GUI**
+**Main Window**
+<br>
+<img src="https://i.ibb.co/MkwX5mTH/main-windows.png" alt="main-windows" border="0">
+
+**GUI**
+<br>
+<img src="https://i.ibb.co/wN90pr67/gradio-1.png" alt="gradio 1" border="0">
 
 ## Los participantes de este proyecto hemos sido:
 - Juan
