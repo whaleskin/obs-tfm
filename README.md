@@ -1,13 +1,11 @@
 # OBS - Trabajo de Fin de Máster
-![Flight Delay Prediction System](https://i.ibb.co/F4tpB7ZZ/Image-for-TFM.png)
+![Flight Delay Prediction System](https://i.ibb.co/F4tpB7ZZ/Screenshot-2025-12-16-115230.png)
 Este repositorio contiene el código que hemos desarrollado durante el máster de IA en OBS para:
 Predecir el retraso de las salidas y llegadas de las líneas aéreas.
 
-El ejercicio se base en un dataset que contiene más de 6M de filas, de USA y del año 2023 completo.
-El código fuer realizado en python 3.12.10, utilizando visual studio code, el cual puede ser personalizado según se requiera.
-Se han usado 13 modelos para verificar cúal es la mejor opción, lo cual ha resultado en que las salidas usa uno distinto al de las llegadas.
-Las llegadas están supeditadas a las salidas.
-La interfaz gráfica se ha realizado en GRADIO.
+**Sistema de Predicción de Retrasos de Vuelos**
+
+El proyecto desarrolla un sistema basado en Machine Learning para predecir retrasos en vuelos comerciales en Estados Unidos utilizando un dataset de 6,7 millones de registros combinados con datos operacionales y meteorológicos. Se evaluaron 13 modelos de regresión y 4 redes neuronales, siendo LightGBM el más preciso, con un error medio de 5 minutos en salidas y 3,72 minutos en llegadas. El sistema incluye una arquitectura escalable y una interfaz en Gradio para predicciones en tiempo real con análisis SHAP para interpretabilidad. Además, permite identificar los factores que generan retrasos, optimizando la gestión operativa de aerolíneas y mejorando la planificación de viajes para los pasajeros.
 
 # ✈️ Flight Delay Prediction System
 
@@ -56,22 +54,27 @@ An intelligent machine learning system that predicts flight departure and arriva
     - Ridge
     - Lasso
     - ElasticNet
-3. **Tree-based**:
+2. **Tree-based**:
      - Decision Tree (DT)
      - Random Forest (RF)
      - Extra Trees (ET)
-5. **Boosting**:
+3. **Boosting**:
      - AdaBoost
      - Gradient Boosting (GD)
      - XGBoost
      - LightGBM
      - CatBoost
-7. **Other**:
+4. **Other**:
      - K-Nearest Neighbors (KNN)
+5. **Neural Networks**:
+     - Original Neural Network
+     - Wide & Deep Network
+     - Residual Network
+     - Transformer-Style Network
 
 ### Best Performing Models
-- **🛫 Departure Model**: GB | MAE: 5.48 min | R²: 0.9782
-- **🛬 Arrival Model**: KNN | MAE: 4.90 min | R²: 0.9838
+- **🛫 Departure Model**: lightGBM | MAE: 5.00 min | R²: 0.9782
+- **🛬 Arrival Model**: lightGBM | MAE: 3.70 min | R²: 0.9838
 
 ## Requirements
 ### Core Data Science Libraries
@@ -114,7 +117,5 @@ The results will be displayed on top of the screen. For more details see the det
 To try the live application, please be in touch with the developers.
 
 ## Los participantes de este proyecto hemos sido:
-- Carlos
 - Juan
-- Nicolas
 - Riccardo
